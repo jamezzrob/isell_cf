@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :items
   # below will give a basic crud
   resources :profiles
 
