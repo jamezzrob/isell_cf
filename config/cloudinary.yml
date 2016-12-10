@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dg25314zy
+  api_key: '454832567492937'
+  api_secret: jaq7jB_vFpjLlL6KwT7JyBbwLjQ
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dg25314zy
+  api_key: '454832567492937'
+  api_secret: jaq7jB_vFpjLlL6KwT7JyBbwLjQ
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dg25314zy
+  api_key: '454832567492937'
+  api_secret: jaq7jB_vFpjLlL6KwT7JyBbwLjQ
+  enhance_image_tag: true
+  static_image_support: false
