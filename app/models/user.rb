@@ -8,7 +8,7 @@ class User < ApplicationRecord
   has_one :profile
 
   # after user is created perform this particular action/method
-  after_create :assign_default_role
+  after_create :assign_role
 
  def assign_role
    if user_type == 'buyer'
