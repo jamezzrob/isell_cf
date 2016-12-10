@@ -11,6 +11,7 @@ gem 'puma', '~> 3.0'
 # Add bootstrap
 gem 'sass-rails', '~> 5.0'
 gem 'bootstrap-sass'
+gem 'simple_form'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -50,5 +51,5 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-# Add devise authentication 
+# Add devise authentication
 gem "devise"
