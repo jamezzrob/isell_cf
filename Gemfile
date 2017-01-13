@@ -23,6 +23,15 @@ gem 'rolify'
 gem 'cancancan'
 
 
+#picture uploader
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+gem 'cloudinary'
+
+#for assigning role
+gem 'rolify'
+# for authourization
+gem 'cancancan', '~> 1.10'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -63,3 +72,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Add devise authentication
 gem "devise"
+
+# Add Simple form which overrides rails forms
+gem 'simple_form'

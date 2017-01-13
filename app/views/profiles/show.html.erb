@@ -6,22 +6,40 @@
       <div class="panel-body">
 
 <p>
+<<<<<<< HEAD
   <strong>First Name</strong>
+=======
+  <strong>First name:</strong>
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
   <%= @profile.first_name %>
 </p>
 
 <p>
+<<<<<<< HEAD
   <strong>Last Name:</strong>
+=======
+  <strong>Last name:</strong>
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
   <%= @profile.last_name %>
 </p>
 
 <p>
   <strong>Photo:</strong>
   <%= image_tag(@profile.picture_url(:thumbnail), :width => 50, :height => 50) %>
+<<<<<<< HEAD
   <p>
 
 <% if current_user.profile ==@profile %>
   <%= link_to 'Edit', edit_profile_path(@profile), class: 'btn btn-warning' %>
   <% end %>
+=======
+</p>
+
+
+
+<% if current_user.profile == @profile %>
+  <%= link_to 'Edit', edit_profile_path(@profile), class: 'btn btn-warning' %>
+<% end %>
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
 
 </div></div></div></div>

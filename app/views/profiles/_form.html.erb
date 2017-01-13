@@ -1,8 +1,12 @@
 <%= simple_form_for(profile) do |f| %>
   <% if profile.errors.any? %>
     <div id="error_explanation">
+<<<<<<< HEAD
       <h2><%= pluralize(profile.errors.count, "error") %> prohibited this course from being saved:</h2>
 
+=======
+      <h2><%= pluralize(profile.errors.count, "error") %> prohibited this profile from being saved:</h2>
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
       <ul>
       <% profile.errors.full_messages.each do |message| %>
         <li><%= message %></li>
@@ -31,7 +35,10 @@
     <%= f.file_field :picture %>
   </div>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
   <div class="actions">
     <%= f.submit %>
   </div>

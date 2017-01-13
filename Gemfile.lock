@@ -49,12 +49,19 @@ GEM
     builder (3.2.2)
     byebug (9.0.6)
     cancancan (1.15.0)
+<<<<<<< HEAD
     carrierwave (0.11.2)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
       json (>= 1.7)
       mime-types (>= 1.16)
       mimemagic (>= 0.3.0)
+=======
+    carrierwave (1.0.0.rc)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
     cloudinary (1.2.4)
       aws_cf_signer
       rest-client
@@ -202,8 +209,13 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass
   byebug
+<<<<<<< HEAD
   cancancan
   carrierwave
+=======
+  cancancan (~> 1.10)
+  carrierwave (>= 1.0.0.rc, < 2.0)
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
   cloudinary
   coffee-rails (~> 4.2)
   devise

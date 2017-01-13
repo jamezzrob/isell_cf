@@ -1,5 +1,6 @@
 ---
 development:
+<<<<<<< HEAD
   cloud_name: dg25314zy
   api_key: '454832567492937'
   api_secret: jaq7jB_vFpjLlL6KwT7JyBbwLjQ
@@ -15,5 +16,22 @@ test:
   cloud_name: dg25314zy
   api_key: '454832567492937'
   api_secret: jaq7jB_vFpjLlL6KwT7JyBbwLjQ
+=======
+  cloud_name: petpics
+  api_key: '526364668354525'
+  api_secret: OZALThX5E_QtIy0yDZS1SfiZ8kw
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: petpics
+  api_key: '526364668354525'
+  api_secret: OZALThX5E_QtIy0yDZS1SfiZ8kw
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: petpics
+  api_key: '526364668354525'
+  api_secret: OZALThX5E_QtIy0yDZS1SfiZ8kw
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
   enhance_image_tag: true
   static_image_support: false

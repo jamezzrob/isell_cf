@@ -16,9 +16,12 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "About", about_path %></li>
         <li class="dropdown">
+<<<<<<< HEAD
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+=======
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">    <span class="caret"></span></a>
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
           <ul class="dropdown-menu">
-
             <% if user_signed_in? %>
               <li><%= link_to "Sign Out", destroy_user_session_path, method: :delete %> </li>
             <% else %>

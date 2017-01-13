@@ -11,7 +11,10 @@
       <th>Price</th>
       <th>Posted date</th>
       <th>Expiry date</th>
+<<<<<<< HEAD
       <th>User</th>
+=======
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -20,10 +23,18 @@
     <% @items.each do |item| %>
       <tr>
         <td><%= item.name %></td>
+<<<<<<< HEAD
         <td> <%= image_tag(item.picture_url(:thumbnail), :width => 50, :height => 50) %></td>
         <td><%= item.posted_date %></td>
         <td><%= item.expiry_date %></td>
         <td><%= item.user %></td>
+=======
+        <td><%= image_tag(item.picture_url(:thumbnail), :width => 50, :height => 50) %></td>
+        <td><%= item.description %></td>
+        <td><%= item.price %></td>
+        <td><%= item.posted_date %></td>
+        <td><%= item.expiry_date %></td>
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
         <td><%= link_to 'Show', item %></td>
         <td><%= link_to 'Edit', edit_item_path(item) %></td>
         <td><%= link_to 'Destroy', item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -33,7 +44,10 @@
 </table>
 
 <br>
+<<<<<<< HEAD
 
+=======
+>>>>>>> d3fe4a23227c3ece41399469052121332a62fbea
 <% if current_user.has_role? :seller %>
 <%= link_to 'New Item', new_item_path %>
 <% end %>
