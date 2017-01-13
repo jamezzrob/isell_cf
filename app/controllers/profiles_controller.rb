@@ -14,6 +14,9 @@ class ProfilesController < ApplicationController
     else
     render :new
     end
+
+    def edit
+    end
 end
     #Get /profile
     def index
