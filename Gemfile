@@ -18,19 +18,19 @@ gem 'carrierwave'
 gem 'cloudinary'
 
 # for assigning Role
-gem 'rolify'
+#gem 'rolify'
 # For authorisation
 gem 'cancancan'
 
 
 #picture uploader
-gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
-gem 'cloudinary'
+#gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
+#gem 'cloudinary'
 
 #for assigning role
 gem 'rolify'
 # for authourization
-gem 'cancancan', '~> 1.10'
+#gem 'cancancan', '~> 1.10'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -74,4 +74,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "devise"
 
 # Add Simple form which overrides rails forms
-gem 'simple_form'
+#gem 'simple_form'
